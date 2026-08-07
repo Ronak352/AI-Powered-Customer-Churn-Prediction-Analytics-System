@@ -11,18 +11,12 @@ This project extends the original research notebook (in `notebooks/`, with all m
 — see note below) into a full production system suitable for a **Final Year Major Project, GitHub
 portfolio, resume, and technical interviews**.
 
-> **Resume line this project supports:**
 > *"Developed a deep learning-based customer churn prediction system using Python, TensorFlow/Keras,
 > and Artificial Neural Networks (ANN) to identify customers at risk of leaving and support proactive
 > retention strategies. Built a 12-page interactive analytics dashboard with executive reporting,
 > KMeans customer segmentation, explainable AI, lift/gain model diagnostics, and multi-format
 > (CSV/Excel/PDF) business reporting to enable data-driven retention decisions."*
 
-> **Note on the research notebook:** all EDA, feature engineering, and model-training logic in
-> `notebooks/Bank_customer_churn_prediction.ipynb` is unchanged from the original analysis. Only
-> environment-specific clutter was removed for portability — the hardcoded Google Colab/Drive file
-> path (now a relative `../dataset/...` path) and notebook-runtime metadata that isn't meaningful
-> outside the original Colab session.
 
 ---
 
