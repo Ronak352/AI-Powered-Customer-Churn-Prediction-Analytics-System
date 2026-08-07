@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🏦 AI-Powered Customer Churn Prediction & Analytics System
 
 A production-ready, end-to-end machine learning application that predicts bank customer churn using
