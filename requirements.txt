@@ -1,0 +1,50 @@
+# ===========================================================================
+# Customer Churn Prediction & Analytics System — Dependencies
+# ===========================================================================
+# Install with:  pip install -r requirements.txt
+# (use --break-system-packages if your environment requires it)
+
+# --- Core data science ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# --- Gradient boosting ---
+xgboost>=2.0.0
+
+# --- Deep learning ---
+tensorflow>=2.15.0
+
+# --- Explainable AI ---
+shap>=0.44.0
+
+# --- Dashboard ---
+streamlit>=1.32.0
+plotly>=5.20.0
+altair>=5.2.0
+streamlit-aggrid>=1.0.5
+
+# --- Excel export ---
+xlsxwriter>=3.2.0
+
+# --- Visualization (notebook / static charts) ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- REST API ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+
+# --- Utilities ---
+python-multipart>=0.0.9
+
+# --- PDF report export ---
+reportlab>=4.1.0
+
+# --- Optional: AI-generated narrative summaries ---
+# Only needed if you set an ANTHROPIC_API_KEY environment variable to enable
+# richer, LLM-written prediction summaries. The app works fully without it
+# (falls back to a built-in template-based summary).
+# anthropic>=0.40.0

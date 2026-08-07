@@ -1,0 +1,68 @@
+[
+  {
+    "Model": "Random Forest",
+    "Accuracy": 0.871,
+    "Precision": 0.8170212765957446,
+    "Recall": 0.47174447174447176,
+    "F1 Score": 0.5981308411214953,
+    "ROC AUC": 0.8543258204275155,
+    "Training Time (s)": 7.0354,
+    "Prediction Time (s)": 0.1268,
+    "Memory Usage (KB)": 196.1
+  },
+  {
+    "Model": "ANN",
+    "Accuracy": 0.861,
+    "Precision": 0.7328519855595668,
+    "Recall": 0.4987714987714988,
+    "F1 Score": 0.5935672514619883,
+    "ROC AUC": 0.8664673918911208,
+    "Training Time (s)": 52.0798,
+    "Prediction Time (s)": 0.8664,
+    "Memory Usage (KB)": NaN
+  },
+  {
+    "Model": "XGBoost",
+    "Accuracy": 0.847,
+    "Precision": 0.6759581881533101,
+    "Recall": 0.47665847665847666,
+    "F1 Score": 0.5590778097982709,
+    "ROC AUC": 0.8380506855083126,
+    "Training Time (s)": 0.1827,
+    "Prediction Time (s)": 0.0035,
+    "Memory Usage (KB)": 35.81
+  },
+  {
+    "Model": "KNN Classifier",
+    "Accuracy": 0.826,
+    "Precision": 0.6322869955156951,
+    "Recall": 0.3464373464373464,
+    "F1 Score": 0.44761904761904764,
+    "ROC AUC": 0.755303068862391,
+    "Training Time (s)": 0.0176,
+    "Prediction Time (s)": 0.1379,
+    "Memory Usage (KB)": 522.09
+  },
+  {
+    "Model": "Logistic Regression",
+    "Accuracy": 0.808,
+    "Precision": 0.5864661654135338,
+    "Recall": 0.19164619164619165,
+    "F1 Score": 0.28888888888888886,
+    "ROC AUC": 0.7732216037300783,
+    "Training Time (s)": 0.0204,
+    "Prediction Time (s)": 0.0007,
+    "Memory Usage (KB)": 48.82
+  },
+  {
+    "Model": "Naive Bayes",
+    "Accuracy": 0.8,
+    "Precision": 0.6206896551724138,
+    "Recall": 0.044226044226044224,
+    "F1 Score": 0.08256880733944955,
+    "ROC AUC": 0.7810846285422557,
+    "Training Time (s)": 0.0045,
+    "Prediction Time (s)": 0.0007,
+    "Memory Usage (KB)": 486.22
+  }
+]
