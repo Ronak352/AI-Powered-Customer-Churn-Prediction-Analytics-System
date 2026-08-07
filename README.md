@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏦 AI-Powered Customer Churn Prediction & Analytics System
 
 A production-ready, end-to-end machine learning application that predicts bank customer churn using
@@ -553,3 +554,6 @@ Validate uploaded datasets, check schema compatibility, detect missing values, a
 ## ⭐ Support
 
 If you found this project useful, consider giving it a star ⭐ on GitHub.
+=======
+# AI-Powered-Customer-Churn-Prediction-Analytics-System
+>>>>>>> 1a056540b5464c975966dd3007911b41a94f53a5
