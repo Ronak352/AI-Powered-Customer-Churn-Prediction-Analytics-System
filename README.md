@@ -139,14 +139,7 @@ Logistic Regression     0.808      0.586   0.192     0.289    0.773
         Naive Bayes     0.800      0.621   0.044     0.083    0.781
 ```
 
-> ⚠️ **Note on optional heavy dependencies:** `xgboost` and `tensorflow` are treated as optional at
-> training time — if they are not installed, `training.py` will skip those two models with a clear
-> warning instead of crashing, so the other 4 classical models + full dashboard still work. Install
-> both (already listed in `requirements.txt`) and re-run `python -m src.training` to include
-> XGBoost and the ANN.
->
-> `streamlit-aggrid` is likewise optional — every table falls back to a plain `st.dataframe`
-> automatically if it isn't installed, so the dashboard never breaks over a missing extra.
+
 
 ### 3. Launch the dashboard
 
