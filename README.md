@@ -107,12 +107,6 @@ Customer-Churn-System/
 
 ---
 
-## 🚀 Quickstart
-
-> **Repo size note:** `models/random_forest.pkl` is ~50 MB (300 trees). It is committed as-is since it
-> is under GitHub's 100 MB hard limit, but if you retrain with more trees or add the ANN/XGBoost
-> artifacts, consider [Git LFS](https://git-lfs.com) for the `models/` folder, or uncomment the
-> relevant lines in `.gitignore` and let users generate models locally via `python -m src.training`.
 
 ### 1. Clone & install dependencies
 
